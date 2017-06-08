@@ -2,10 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>Code Test</title>
   </head>
   <body>
 
+<div class="container">
     <h1>Test Application</h1><br>
       <form id="test-form">
       <style>
@@ -23,25 +26,36 @@
     </span>
 
     <span>
-      <label>Email<label>
-        <input type="email" placeholder="someone@domain.com" required="Please check your email. Make sure it has the '@' symbol after the username"><br>
-    </span>
+      <label>Email  <label>
+        <input type="email" placeholder="someone@domain.com" required="Please check your email. Make sure it has the '@' symbol after the username">
+    </span><br>
+
         <input type="button" value="Submit"/><br>
-        <iframe width="560" height="315"
+      </div>
+    </form>
+
+    <div >
+      <iframe width="560" height="315"
         src="https://www.youtube.com/embed/CE-JlvmnRtY" frameborder="0" allowfullscreen>
       </iframe>
 
-      <img
-      src="https://media.giphy.com/media/13CoXDiaCcCoyk/giphy.gif">
-    </img><br>
+      <img src="https://media.giphy.com/media/13CoXDiaCcCoyk/giphy.gif"</img>
+
       <a href="https://facebook.com">
         <img src="http://www.orchard.co.uk/images/Joanne%20event/facebook_cat.jpg"></img>
       </a>
-      </div>
-      </form>
+    </div><br>
 
-      <div>
+      <div class="btn-group btn-group-lg">
+        <script src="buttonJS.js"></script>
         
+        <button class="btn btn-primary" id="Bird Button" name="Bird Button">Bird Button</button>
+        <button class="btn btn-primary" id="Cat Button" name="Cat Button">Cat Button</button>
+        <button class="btn btn-primary" id="Dog Button" name="Dog Button">Dog Button</button><br>
+
+        <img id="image1" src="source1" class="image-group"></img>
+        <img id="image2" src="source1" class="image-group"></img>
+        <img id="image3" src="source3" class="image-group"></img>
       </div>
   </body>
 </html>
