@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Code Test</title>
+  </head>
+  <body>
+
+    <h1>Test Application</h1><br>
+      <form id="test-form">
+      <style>
+        form{ display: inline-block; margin: auto;}
+      </style>
+        <div class="test-form">
+    <span>
+      <label>Name</label>
+        <input type="text" placeholder="Please enter your name here" maxlength="100" required="Please enter your name before submitting"><br>
+    </span>
+
+    <span>
+      <label>Phone</label>
+        <input type="tel" placeholder="###-###-####" required="Please enter a 10 digit number" maxlength="12" pattern="1-###-###-####"><br>
+    </span>
+
+    <span>
+      <label>Email<label>
+        <input type="email" placeholder="someone@domain.com" required="Please check your email. Make sure it has the '@' symbol after the username"><br>
+    </span>
+        <input type="button" value="Submit"/>
+      </div>
+      </form>
+  </body>
+</html>
